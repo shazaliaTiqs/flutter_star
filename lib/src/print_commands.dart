@@ -202,7 +202,7 @@ class PrintCommands {
         child: repaintBoundary,
       ),
       configuration: ViewConfiguration(
-        size: logicalSize,
+        constraints: BoxConstraints.tight(logicalSize),
         devicePixelRatio: 1.0,
       ),
     );
